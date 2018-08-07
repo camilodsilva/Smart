@@ -1,0 +1,9 @@
+/vendor/
+
+/public/css/
+/public/fonts/
+/public/icon/
+/public/img/
+/public/js/
+
+/bower_components/

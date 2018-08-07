@@ -1,0 +1,27 @@
+{
+    "name": "camilo/smart",
+    "description": "Simple Management and Reliable Tool is a framework to provide productivity",
+    "type": "project",
+    "authors": [
+        {
+            "name": "CamiloDSilva",
+            "email": "camilods_mp@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Smart\\Bootstrap\\": "app/lib/bootstrap",
+            "Smart\\Database\\": "app/lib/database",
+            "Smart\\Parsers\\": "app/lib/parser",
+            "Smart\\Controllers\\": "app/lib/controllers",
+            "Smart\\Models\\": "app/lib/models",
+            "Smart\\Resolvers\\": "app/lib/resolvers",
+            "Smart\\Router\\": "app/controllers",
+            "Smart\\Security\\": "app/lib/security",
+            "Smart\\Orm\\": "app/models",
+            "Smart\\Views\\": "app/lib/views"
+        }
+    }
+}
