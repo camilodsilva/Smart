@@ -46,7 +46,7 @@ class IndexController extends Controller
 
 		$this->view->title = $this->appConfig['pageTitle'] . ' - Principal';
 		$users = $this->model->getUsers();
-		$search = 'Camilo.Silva@br.nestle.com';
+		$search = 'user@email.com';
 
 		echo $this->auth->getToken($search, $users);
 	}
