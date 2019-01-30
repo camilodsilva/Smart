@@ -1,9 +1,9 @@
 <?php
 
 return [
-    'dbType' => 'mysql',
+    'dbType' => 'pgsql',
     'dbHost' => 'localhost',
-    'dbName' => 'laravel55_saldo',
-    'dbUser' => 'root',
-    'dbPass' => ''
+    'dbName' => 'postgres',
+    'dbUser' => 'postgres',
+    'dbPass' => 'camilo070790'
 ];

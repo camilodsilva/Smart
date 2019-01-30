@@ -7,7 +7,7 @@
 				for ($i=0; $i<sizeof($this->users); $i++) {		
 		?>
 		<li>
-			<a href="?url=index/details/<?= $this->users[$i]['UserId']; ?>">
+			<a href="index/details/<?= $this->users[$i]['UserId']; ?>">
 				<?= $this->users[$i]['UserId'] . ' - ' . $this->users[$i]['UserName']; ?>
 			</a>
 			<button data-value="<?= $this->users[$i]['UserId']; ?>">Ajax Details</button>

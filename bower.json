@@ -1,0 +1,17 @@
+{
+  "name": "Smart",
+  "homepage": "https://github.com/Camilo-Silva/Smart",
+  "authors": [
+    "CamiloDSilva <camilods_mp@hotmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

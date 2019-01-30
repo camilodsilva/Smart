@@ -39,9 +39,9 @@ class LoginController extends Controller
             session_start();
             $_SESSION['token'] = $this->jwt['jwt'];
 
-            HttpResolver::redirect('?url=login/restrict');
+            HttpResolver::redirect('login/restrict');
         } else {
-            HttpResolver::redirect('?url=login/index');
+            HttpResolver::redirect('login/index');
         }
 	}
 
@@ -55,7 +55,7 @@ class LoginController extends Controller
         if(isset($this->jwt) && $this->jwt['status'] === 'success') {
 		    $this->view->render('login/restrict');
         } else {
-            HttpResolver::redirect('?url=login/index');
+            HttpResolver::redirect('login/index');
         }
     }
     
@@ -64,6 +64,6 @@ class LoginController extends Controller
         session_start();
         session_unset();
 
-        HttpResolver::redirect('?url=login/index');
+        HttpResolver::redirect('login/index');
 	}
 }
