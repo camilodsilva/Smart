@@ -2,7 +2,7 @@ $(document).ready(function() {
     $('button').click(function() {
         var route = $(this).data('value');
         $.ajax({
-            url: `?url=index/detailsAjax/${route}`,
+            url: `index/detailsAjax/${route}`,
             success: function(res) {
                 console.log(res);
                 var user = JSON.parse(res);

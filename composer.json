@@ -12,16 +12,16 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Smart\\Bootstrap\\": "app/lib/bootstrap",
-            "Smart\\Database\\": "app/lib/database",
-            "Smart\\Parsers\\": "app/lib/parser",
-            "Smart\\Controllers\\": "app/lib/controllers",
-            "Smart\\Models\\": "app/lib/models",
-            "Smart\\Resolvers\\": "app/lib/resolvers",
+            "Smart\\Bootstrap\\": "lib/bootstrap",
+            "Smart\\Database\\": "lib/database",
+            "Smart\\Parsers\\": "lib/parser",
+            "Smart\\Controllers\\": "lib/controllers",
+            "Smart\\Models\\": "lib/models",
+            "Smart\\Resolvers\\": "lib/resolvers",
             "Smart\\Router\\": "app/controllers",
-            "Smart\\Security\\": "app/lib/security",
+            "Smart\\Security\\": "lib/security",
             "Smart\\Orm\\": "app/models",
-            "Smart\\Views\\": "app/lib/views"
+            "Smart\\Views\\": "lib/views"
         }
     }
 }

@@ -21,8 +21,6 @@ class IndexController extends Controller
 	public function index()
 	{
 		$this->view->title = $this->appConfig['pageTitle'] . ' - Principal';
-		$this->view->users = $this->model->getUsers();
-
 		$this->view->render('index/index');
 	}
 
